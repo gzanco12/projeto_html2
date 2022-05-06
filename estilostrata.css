@@ -1,0 +1,309 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    color: #666;
+    line-height: 1.5;
+}
+a{
+    transition: color 0.2s linear, .2s linear;
+    text-decoration: none;
+    color: #49bf9d;
+}
+a:hover{
+    border-bottom-color: transparent;
+}
+p{
+    margin: 0 0 2em;    
+}
+
+blockquote{
+    border-left: 5px solid #efefef;
+    margin: 2em 0;
+    padding: .5em 0 .5em 1.5em;
+    
+}
+
+
+h1, h2, h3, h4, h5, h6{
+    color: #787878;
+    font-weight: normal;
+    margin: 0 0 1em 0;
+    
+}
+code{
+    background-color: #ddd;
+    border-radius: .35em;
+    border: 3px solid #666;
+    padding: .25em .65em;
+}
+pre code{
+    display: block;
+}
+
+.header1{
+    position:fixed;
+    top:0;
+    left:0;
+    height: 100%;
+    width: 35%;
+    font-size: 10px;
+    padding: 124px 54px;
+    box-sizing: border-box;
+    text-align: right;
+    background-image: url(images/bg.jpg);
+    background-position:  left bottom ;
+    background-size:cover;
+}
+
+.header1t1{
+    text-align: right;
+    padding-left: 20%;
+    font-weight: normal;
+    color: rgba(13, 11, 11, 0.5);
+}
+
+.header1 strong{
+    font-weight: normal;
+    color: white;
+}
+
+img{
+    max-width: 100%;
+}
+
+.header1img{
+    border-radius: 50%;
+}
+
+.header1link{
+    color: inherit;
+}
+
+.header1link:hover{
+    color:cadetblue; 
+}
+
+.introducao{
+    padding-bottom: 10px;
+}
+
+.maincontent{
+    padding-top: 50px;
+}
+
+
+.content1{
+    width: 65%;
+    margin-left: 35%;
+    padding: 124px 54px;
+    box-sizing: border-box;    
+}
+
+ul, ol{
+    margin: 0;
+    padding-bottom: 2em;
+    padding-left: 0;
+    padding-top: 1em;    
+}
+
+.ulalternate{
+    list-style-type: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+.ulalternate li{
+    border-bottom: 3px solid #ccc;
+}
+
+.ulalternate li:last-child{
+    border: 0;
+}
+
+.ulicons{
+    list-style-type: none;
+    
+}
+.ulicons li{
+    display: inline-block;
+    font-size: 1.5em;
+    color:cadetblue;
+}
+
+
+
+
+
+input, label, textarea{
+    display: inline-block;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+input, textarea{
+    border-radius: 8px;
+    background-color: #ddd;
+    border: 2px solid transparent;
+}
+
+input{
+    height: 30px;
+}
+
+input:focus, textarea:focus{
+    border: 2px solid #bbe7e8;
+    outline: none;
+}
+textarea{
+    resize: none;
+    height: 100px;
+}
+
+
+.btndefault{
+    background-color: cadetblue;
+    border: 2px solid cadetblue;
+    border-radius: 8px;
+    padding: .75em;
+    font-size: .8em;
+    color: white;
+    width: 110px;
+    display: inline-block;
+    transition: all .2s;
+}
+.btndefault:hover{
+    background-color:#81e5e5;
+    color: cadetblue;
+    cursor: pointer;
+    border-color: transparent;
+    color:black;
+}
+
+.btndefault_stroke:hover{
+    color:cadetblue;
+    border: 3px solid cadetblue;
+}
+
+.btndefault_stroke{
+    background-color: white;
+    color: #666;
+}
+
+.btndefault_small{
+    width: 70px;
+    height: 30px;
+    font-size: .7em;
+}
+
+.btndefault_big{
+    width: 150px;
+    height: 50px;
+}
+
+.table{
+    width: 100%;
+    margin: 0 0 2em 0;
+    border-collapse: collapse;
+    
+}
+.table td{
+    padding: .75em;
+}
+
+.table th{
+    background-color: cadetblue;
+    color: white;
+    padding: .5em;
+}
+.table tbody tr:first-child td{
+    border-top: 2px solid #666;
+    
+}
+.table tbody tr:last-child td{
+    border-bottom: 2px solid #666;    
+}
+
+.table tbody tr td{
+    border-bottom: 2px solid #ccc;
+}
+
+.table tbody tr:nth-child(odd) td{
+    background-color:#bbe7e8;
+}
+
+.table-alternate td{
+  border: 2px solid #ccc; 
+}
+
+.imgpqn{
+    display: inline-block;
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+
+.imagem-link{
+    border: 0;
+}
+
+.imggrande{
+    padding-left: 25px;
+}
+
+.pe{
+    position: fixed;
+    bottom: 100px;
+    left: 280px;
+}
+
+.footer li{
+    padding-left: 20px;
+    font-size: 2em;
+}
+.footer li a{
+    color: gray;
+}
+
+.footer li a:hover{
+    color: #3fb2b5;
+}
+
+
+/* grid */
+
+.rowform{
+    overflow: auto;
+    
+}
+
+.colform{
+    width: 65%;
+    float:left;
+}
+
+.colform3{
+    width: 32%;
+    float: left;
+    margin-left: 3%;
+}
+
+.row{
+    overflow: auto;
+}
+
+.col-2{
+    width: 48%;
+    float: left;
+}
+.col-2:first-child{
+    margin-right: 2%;
+}
+
+
+
+
+
+
+
+
+
+
+
